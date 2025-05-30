@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Log files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+
+# Build directories
+dist
+build
+tmp
+public
+
+# Optional: Ignore package-lock / yarn-lock files if you don't want them in the repo
+# package-lock.json
+# yarn.lock
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
